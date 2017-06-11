@@ -1,5 +1,8 @@
 package symboltable;
 
-public class EmptySymTableException {
-
+public class EmptySymTableException extends Exception {
+	
+	public EmptySymTableException() {
+		
+	}
 }
